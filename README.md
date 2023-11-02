@@ -2,7 +2,7 @@
 
 ## atributes:
 
-my code from final project 260 - attributes for 260 final project at the bottom (line ___)
+[my final project for 260](https://l1ch3n.github.io/cpnt260-final-project-v3/) - attributes for 260 final project at the bottom (line ___)
 
 https://codepen.io/lilyx/pen/zYyeLaP - Ashlyn nav bar
 
@@ -10,15 +10,10 @@ https://codepen.io/inescodes/pen/PoxMyvX -  cards
 
 ## To do
  - fix display grid issue with nav bar and cards
- - add hero section and footer
- - add confetti button
+ - button won't render?
  - 2 input fields
  - 2 toggles
- - add ancher tags to nav bar for lower on the page
- - colors and typography (2 each)
- - comment code
- - pushed in at least 4 commits with descriptive and accurate commit messages
- - readme
+ - add ancher tags to character 
 
  ## bugs and solutions
 
@@ -28,7 +23,8 @@ https://codepen.io/inescodes/pen/PoxMyvX -  cards
  ## v2 bugs and solutions
 
  1) copyright text not over footer image
- 2) text decoration none not working - https://www.codecademy.com/forum_questions/5336e5e1631fe95325001895
+ 2) text decoration none not working - https://www.codecademy.com/forum_questions/5336e5e1631fe95325001895, https://stackoverflow.com/questions/7291873/disable-color-change-of-anchor-tag-when-visited
+ 3) logo doesn't render in navigation - logo does render in v1 - so far cannot find solution
 
 
  ### 260 Final Project attributions:
@@ -38,9 +34,6 @@ https://codepen.io/inescodes/pen/PoxMyvX -  cards
 night city photo - Leonardo AI
 
 additional photos from pexels - get name
-
-my photo ._.
-(ps - Tony the logo on the last assignment was mine I made it in figma that's why there was no attribution TT_TT)
 
 nav bar and hero section - code from one 260 assignment 3 & 4
 

@@ -1,10 +1,9 @@
 body {
-  margin: 0; /* allow content to to touch the edges of the page */
   background-color: black;
 }
 
-@media (width > 50rem) {
+/* @media (width > 50rem) {
   body {
     font-size: 1rem;
   }
-}
+} */

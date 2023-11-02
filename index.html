@@ -10,8 +10,11 @@
   <link rel="stylesheet" href="css/hero.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/cards.css">
+  <link rel="stylesheet" href="css/goodies.css">
   <!-- JavaScript -->
-  <script src="js/client.js" type="module" defer></script>
+  <script src="js/nav.js" type="module" defer></script>
+  <script src="js/card.js" type="module" defer></script>
    <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,19 +25,20 @@
 <body>
   <!-- navigation -->
   <header id="site-header">
-  <!-- <nav>
+  <!-- original nav commented out -->
+    <!-- <nav>
     <ul>
       <li><a class="active" href="index.html">HOME</a></li>
       <li><a href="character-backstory.html">CHARACTER</a></li>
       <li><a href="cantrips-spells.html">MAGIC</a></li>
     </ul>
   </nav> -->
-  <div id="company-logo"><span><a class="active" href="index.html"><i class="fa-solid fa-ghost" style="color: #ffffff;"></i></a></span></div>
+  <div id="company-logo"><span><a class="active" href="index.html"><i class="fa-light fa-dice-d20" style="color: #ffffff;"></i></a></span></div>
     <nav id="grid-container">
       <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#page-one-content">World</a></li>
+        <li><a href="#">Character</a></li>
+        <li><a href="#main__heading">Spells</a></li>
       </ul>
     </nav>
     <div id="menu-button-container">
@@ -48,10 +52,47 @@
       <h2>A cyberpunk themed adventure for Dungeons &amp; Dragons</h2> 
     </div>
   <!--Content-->
-  <main class="page-one-content">
+  <main class id="page-one-content">
     <h2 id="opening"> TECHNOMANCER'S TEXTBOOK :</h2>
       <p>Welcome to a cyberpunk setting supplement for fifth edition Dungeons &amp; Dragons. The Technomancer's Textbook is a free homebrew campaign that draws inspiration from the cyberpunk genre. Various movies, books, television and video games have adapted the visual styles and themes, such as neon-lit streets, towering skyscrapers, and grimy alleyways accompanied by a despairing contrast between the wealthy and the derelict. Other major themes include corrupt mega-corporations, extensive criminal activity that is regarded by the general populace as the norm and the technological modification of the human mind and body.</p>
       <p>Despite the fact that there are many cyberpunk tabletop games out there, this campaign was designed to incorporate technology and magic, making it uniquely compatible with the mechanics of Dungeons &amp; Dragons. The rules of fifth edition Dungeons &amp; Dragons apply so that dungeon masters and players alike can comfortably enjoy these exciting new settings without having to learn a whole new rule set and game. That being said, there are a lot of new subclasses, feats, backgrounds, firearms, and vehicles to explore.</p>
+
+  <!-- cards -->
+  <main class="main flow">
+    <h1 class id="main__heading">Favourite Spells</h1>
+    <div class="main__cards cards">
+      <div class="cards__inner">
+        <div class="cards__card card">
+          <h2 class="card__heading">First Level</h2>
+          <p class="card__price">Guiding Bolt</p>
+          <ul>
+            <li>A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.</li>
+          </ul>
+          <a href="http://dnd5e.wikidot.com/spell:guiding-bolt" class="card__cta cta">Read more</a>
+        </div>
+  
+        <div class="cards__card card">
+          <h2 class="card__heading">Second Level</h2>
+          <p class="card__price">Prayer of Healing</p>
+          <ul>
+            <li>Up to six creatures of your choice that you can see within range each regain hit points equal to 2d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</li>
+          </ul>
+          <a href="http://dnd5e.wikidot.com/spell:prayer-of-healing" class="card__cta cta">Read more</a>
+        </div>
+  
+        <div class="cards__card card">
+          <h2 class="card__heading">Cantrip</h2>
+          <p class="card__price">Spare the Dying</p>
+          <ul>
+            <li>You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.</li>
+          </ul>
+          <a href="http://dnd5e.wikidot.com/spell:spare-the-dying" class="card__cta cta">Read more</a>
+        </div>
+      
+      <div class="overlay cards__inner"></div>
+    </div>
+    <!-- fun button -->
+    <div id="root"></div>
   </main>
   <!--footer-->
   <footer>
