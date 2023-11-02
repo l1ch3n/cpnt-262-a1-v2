@@ -1,0 +1,9 @@
+/* Container holding the image and the text */
+.footer-container {
+  padding-top: 2rem;
+}
+/* Centered text */
+.footer-text {
+  position: absolute;
+}
+

@@ -1,0 +1,18 @@
+/* Position and center the image to scale nicely on all screens */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.323), rgba(4, 4, 4, 0.345)), url("../images/hero-image.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  

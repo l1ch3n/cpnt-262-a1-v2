@@ -1,0 +1,95 @@
+.hero-text h1 {
+  font-family: Chakra Petch;
+  font-size: 3.5rem;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+  line-height: 4rem;
+  color: white;
+  text-shadow: 
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px rgb(234, 163, 100),
+  0 0 82px rgb(234, 163, 100),
+  0 0 92px rgb(234, 163, 100),
+  0 0 102px rgb(234, 163, 100),
+  0 0 151px rgb(234, 163, 100);
+  /* flicker effect */
+  -webkit-animation: flicker 5.5s infinite;
+}
+
+@-webkit-keyframes flicker
+{
+0% {opacity:0;}
+9% {opacity:0;}
+10% {opacity:.5;}
+13% {opacity:0;}
+20% {opacity:.5;}
+25% {opacity:1;}
+}
+
+.hero-text h2 {
+  font-family: Play;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: white;
+  text-shadow: rgb(212, 0, 255) 5px 5px 5px;
+}
+
+.page-one-content {
+  color: white;
+  text-align: left;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  line-height: 2rem;
+}
+
+.page-one-content h2 {
+  font-family: Chakra Petch;
+  font-size: 35px;
+}
+
+.page-one-content p {
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.footer-text {
+  font-family: Chakra Petch;
+  color: white;
+}
+
+.page-two-content {
+  color: white;
+  text-align: left;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  line-height: 2rem;
+}
+
+.page-two-content h1 {
+  font-family: Chakra Petch;
+  font-size: 40px;
+}
+
+.page-two-content h2 {
+  font-family: Chakra Petch;
+  font-size: 26px;
+}
+
+.page-two-content h3 {
+  font-family: Play;
+  font-size: 20px;
+}
+
+.page-two-content p {
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.desc {
+  color: white;
+  font-family: Play;
+}
