@@ -28,6 +28,7 @@ https://codepen.io/inescodes/pen/PoxMyvX -  cards
  ## v2 bugs and solutions
 
  1) copyright text not over footer image
+ 2) text decoration none not working - https://www.codecademy.com/forum_questions/5336e5e1631fe95325001895
 
 
  ### 260 Final Project attributions:

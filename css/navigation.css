@@ -1,10 +1,60 @@
-nav ul {
+#site-header {
+  display: flex;
+  background: black;
+  justify-content: space-between;
+  color: rgb(234, 163, 100);
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 500ms ease;
+}
+
+#grid-container > ul {
+  overflow: hidden;
+  list-style-type: none;
+  padding-left: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#grid-container.menu-row {
+  grid-template-rows: 1fr;
+}
+
+@media only screen and (min-width: 600px) {
+  #site-header {
+    align-items: center;
+  }
+  #grid-container {
+    grid-template-rows: 1fr;
+  }
+  #grid-container > ul {
+    flex-direction: row;
+    align-items: center;
+  }
+  #menu-button-container {
+    display: none;
+  }
+}
+
+/* Original css for nav */
+
+/* nav ul {
   background: linear-gradient(45deg, rgb(234, 163, 100), rgb(212, 0, 255));
   list-style: none;
   margin: 0;
 }
 /* Navagation */
-nav a {
+/* nav a {
   font-family: Chakra Petch;
   display: block;
   padding: 0.5rem;
@@ -15,7 +65,7 @@ nav a {
 
 nav a:hover {
   /* text-shadow: white 3px 3px 5px; */
-  text-shadow: 
+  /* text-shadow: 
   0 0 7px #fff,
   0 0 10px #fff,
   0 0 21px #fff,
@@ -44,4 +94,4 @@ nav a.active {
     display: flex;
     justify-content: space-around;
   }
-}
+} */
